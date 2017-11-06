@@ -1,5 +1,7 @@
 package com.sardina.mail.model;
 
+import java.time.format.DateTimeFormatter;
+
 public class EmailObject {
 
     private String visitorEmail;  // sent to:

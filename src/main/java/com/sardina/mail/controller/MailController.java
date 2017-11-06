@@ -23,6 +23,7 @@ public class MailController {
         EmailObject message = mapper.readValue(json, EmailObject.class);
         try {
             mailService.sendEmail(message.getVisitorEmail());
+            mailService.logVisitor(message);
             return "Email Sent";
         } catch (Exception ex) {
             return "Error Sending Email: " + ex;
