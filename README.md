@@ -9,15 +9,17 @@
 
 ## 3: Post an API request to "localhost:8080/send_simple_email".
   
-  {
-  
-    visitorEmail: , 
+    {
     
-    visitorName: , 
+      visitorEmail: , 
     
-    visitorComments: 
+      visitorName: , 
     
-   }
+      visitorComments: 
+      
+      }
+    
+
    
    
    
