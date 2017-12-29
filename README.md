@@ -8,3 +8,8 @@
   ####  eg: downloads/hi-AR-me_Mail/target/mail-0.0.1-SNAPSHOT.jar
 
 ## 3: Post an API request to "localhost:8080/send_simple_email".
+  {  
+    visitorEmail:
+    visitorName:
+    visitorComments:
+  }
